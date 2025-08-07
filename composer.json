@@ -1,0 +1,23 @@
+{
+    "name": "wheakerd/framework-skeleton",
+    "type": "project",
+    "license": "MIT",
+    "description": "A skeleton of SuperKernel framework that provided by official team.",
+    "autoload": {
+        "psr-4": {
+            "Wheakerd\\FrameworkSkeleton\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "wheakerd",
+            "email": "wheakerd@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.4",
+        "super-kernel/config": "^1.0",
+        "super-kernel/di": "^1.0"
+    }
+}
